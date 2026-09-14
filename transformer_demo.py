@@ -126,8 +126,10 @@ for i in range(len(clean_tokens)):
 plt.colorbar(label="Attention Weight")
 
 plt.tight_layout()
-plt.show()
 
+plt.show(block=False)
+plt.pause(5)
+plt.close()
 
 print("\n" + "=" * 60)
 print("[6] REAL PRETRAINED TRANSFORMER")
