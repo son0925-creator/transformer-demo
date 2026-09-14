@@ -87,7 +87,7 @@ print("\nContextual Representations:")
 for token, vector in zip(clean_tokens, context):
     print(f"{token:10} -> {np.round(vector, 3)}")
 
-    import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 
 print("\n" + "=" * 60)
 print("[5] VISUALIZING ATTENTION")
